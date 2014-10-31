@@ -1,7 +1,8 @@
-age = rand(110)
+age = rand(110) # look at the docs for rand, will this ever produce a number that is 110?
 
 puts 'Age is ' + age.to_s
 
+# Be careful with your indentation and spacing. It is really important for communicating your code intent
  if age > 0 && age <= 1
    puts 'baby'
 
